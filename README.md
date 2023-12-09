@@ -12,3 +12,9 @@ brew install openssl xz zlib gdbm sqlite
 export LDFLAGS="-L/opt/homebrew/opt/zlib/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/zlib/include"
 ```
+
+## Clone CPython source code
+
+```bash
+git clone git@github.com:python/cpython.git -b 3.11
+```
