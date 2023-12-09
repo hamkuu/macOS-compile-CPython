@@ -1,2 +1,7 @@
-# macOS-compile-CPython
-How to compile CPython on macOS.
+# How to Compile CPython on macOS
+
+## Install dependencies
+
+```bash
+brew install openssl xz zlib gdbm sqlite
+```
