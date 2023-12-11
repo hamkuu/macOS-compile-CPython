@@ -8,8 +8,16 @@
 
 ## Install dependencies
 
+Minimum
+
 ```bash
-brew install openssl xz zlib gdbm sqlite
+brew install openssl zlib
+```
+
+Nice to have
+
+```bash
+brew install xz gdbm sqlite
 ```
 
 ## Configure `zlib` package path for compilers to locate
