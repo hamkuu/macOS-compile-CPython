@@ -1,5 +1,11 @@
 # How to Compile CPython on macOS
 
+## Get `brew` package manager from `brew.sh`
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ## Install dependencies
 
 ```bash
