@@ -1,10 +1,9 @@
 # How to Compile CPython on macOS
 
-## Get `brew` package manager from `brew.sh`
+## Pre-requisites
 
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+- macOS 14.2 (23C64)
+- [Homebrew](https://brew.sh)
 
 ## Install dependencies
 
