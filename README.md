@@ -45,6 +45,12 @@ cd cpython
 make -j2 -s
 ```
 
+## Test Python
+
+```bash
+make test
+```
+
 ## Install Python
 
 ```bash
