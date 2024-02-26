@@ -7,16 +7,8 @@
 
 ## Install dependencies
 
-Minimum
-
 ```bash
-brew install openssl zlib
-```
-
-Nice to have
-
-```bash
-brew install xz gdbm sqlite
+brew install pkg-config openssl@3.0 xz gdbm tcl-tk
 ```
 
 ## Configure `zlib` package path for compilers to locate
