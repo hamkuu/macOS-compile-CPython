@@ -29,14 +29,15 @@ export CPPFLAGS="-I/opt/homebrew/opt/zlib/include"
 ## Clone CPython source code
 
 ```bash
-git clone git@github.com:python/cpython.git -b 3.11
+git clone git@github.com:python/cpython.git -b 3.12
+git clean -fdx
 ```
 
 ## Generate a Makefile
 
 ```bash
 cd cpython
-./configure --with-openssl=$(brew --prefix openssl) --enable-optimizations
+./configure --with-openssl="$(brew --prefix openssl@3.0)" --enable-optimizations
 ```
 
 ## Build CPython binary
